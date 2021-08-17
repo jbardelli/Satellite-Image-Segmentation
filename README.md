@@ -8,6 +8,11 @@ Only two label categories were used:
 - (1) for the well pad
 - (0) for the background 
 Images were cropped in a mosaic of 256x256 patches for training and testing, to avoind using a model for which too much memory would be needed. After training for 100 epochs, the model was saved.
+
 Some of the predictions can be seen below for 256x256 patches from a test image.
 
+![predict1](oil_well_predict1.png)
+![predict3](oil_well_predict3.png)
+![predict4](oil_well_predict4.png)
 
+As it can be seen from the images above, there is still work to be done but the proof of concept seems to be successfull.
